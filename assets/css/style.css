@@ -507,6 +507,25 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Tech Tags
+--------------------------------------------------------------*/
+.tech-tags {
+  margin: 4px 0 8px 0;
+}
+.tech-tag {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  color: #6c757d;
+  border: 1px solid #adb5bd;
+  border-radius: 3px;
+  padding: 2px 7px;
+  margin: 2px 3px 2px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+/*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
