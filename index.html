@@ -14,7 +14,7 @@
 
   <!-- Google Fonts -->
   <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500&display=swap"
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
@@ -57,7 +57,7 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center">
-    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+    <div class="container">
       <h1>Mayukh Haldar</h1>
       <p>Robotics · Autonomous Systems · Systems Security</p>
       <div class="social-links">
@@ -95,33 +95,120 @@
               against cyber and physical threats. I am particularly interested in building secure infrastructure for autonomous systems — ensuring that 
               autonomous vehicles and robots can operate safely, verifiably, and interoperably in complex environments.
             </p>
+            <p>
+              Previously, I have worked as a <strong>Robot Platform Software Engineer</strong> at <strong>OTTO Motors by Rockwell Automation (Clearpath Inc.)</strong>, 
+              where I contributed to the development and maintenance of autonomous mobile robot platform software. This included the robot embedded systems and ROS-based
+              control of the platform. Here I gained experience in designing and implementing robot software for motor control, sensor management, battery management and
+              full system integration and testing. 
+            </p>
             <p> 
               I hold a <strong>Bachelor of Applied Science in Computer Engineering</strong> from the <strong>University of Toronto</strong>. 
               During my studies, I completed a year-long internship as an <strong>Embedded Software Engineer</strong> at <strong>Geotab Inc.</strong>, 
               where I developed multi-threaded Linux-based IoT software and designed a <em>TinyML</em> solution that deployed a neural network 
               on an ARM microcontroller for aggressive driving detection.
             </p>
-            <!-- <div class="row">
-
-              <ul>
-                <li><i class="bi bi-chevron-right"></i> <strong>Languages:</strong> <span>Rust, C, C++,
-                    Python, SQL, Assembly, Verilog, Java</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Software/Hardware Tools:</strong> <span>ROS, Embedded Linux, Git/Gitlab, FPGA, ARM SoC,
-                    Pytorch, Tensorflow (Lite), Quartus, ModelSim, MATLAB/Simulink </span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Technologies:</strong> <span>CAN, ISOTP, MQTT, MIME</span></li>
-              </ul>
-
-            </div> -->
-            <!-- <p>
-              In my free time, I enjoy watching and playing sports such as Football, Cricket and Basketball.
-              Additionally, I enjoy playing music on the piano.
-            </p> -->
+            <div class="stack-section">
+              <span class="stack-label">Languages</span>
+              <div class="stack-row tech-tags">
+                <span class="tech-tag">Rust</span>
+                <span class="tech-tag">C</span>
+                <span class="tech-tag">C++</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Assembly</span>
+                <span class="tech-tag">Verilog</span>
+              </div>
+              <span class="stack-label">Tools &amp; Platforms</span>
+              <div class="stack-row tech-tags">
+                <span class="tech-tag">ROS</span>
+                <span class="tech-tag">Embedded Linux</span>
+                <span class="tech-tag">FPGA</span>
+                <span class="tech-tag">ARM SoC</span>
+                <span class="tech-tag">PyTorch</span>
+                <span class="tech-tag">STM32</span>
+              </div>
+              <span class="stack-label">Protocols</span>
+              <div class="stack-row tech-tags">
+                <span class="tech-tag">CAN</span>
+                <span class="tech-tag">ISO-TP</span>
+                <span class="tech-tag">MQTT</span>
+                <span class="tech-tag">TCP/IP</span>
+              </div>
+            </div>
 
           </div>
         </div>
 
       </div>
     </section><!-- End About Section -->
+
+    <!-- ======= Research Focus Section ======= -->
+    <section id="research" class="research-focus">
+      <div class="container">
+        <div class="section-title">
+          <h2>Research Focus</h2>
+        </div>
+        <div class="row g-4">
+
+          <!-- RESEARCH CARD TEMPLATE 1 — replace with your actual project -->
+          <div class="col-lg-4 col-md-6">
+            <div class="research-card">
+              <div class="card-icon"><i class="bi bi-activity"></i></div>
+              <span class="status-badge status-ongoing">Ongoing</span>
+              <h4>Robot Command Execution Verification</h4>
+              <p>[One or two sentences describing the research problem and your approach.]</p>
+            </div>
+          </div>
+
+          <!-- RESEARCH CARD TEMPLATE 2 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="research-card">
+              <div class="card-icon"><i class="bi bi-cpu-fill"></i></div>
+              <span class="status-badge status-ongoing">Completed</span>
+              <h4>[Project Title]</h4>
+              <p>[One or two sentences describing the research problem and your approach. What threat or gap does this address?]</p>
+            </div>
+          </div>
+
+          <!-- RESEARCH CARD TEMPLATE 3 — remove or add a third project if needed -->
+          <div class="col-lg-4 col-md-6">
+            <div class="research-card">
+              <div class="card-icon"><i class="bi bi-shield-check"></i></div>
+              <span class="status-badge status-ongoing">Ongoing</span>
+              <h4>[Project Title]</h4>
+              <p>[One or two sentences describing the research problem and your approach.]</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Featured Projects Section ======= -->
+    <section id="featured" class="featured-projects">
+      <div class="container">
+        <div class="section-title">
+          <h2>Featured Projects</h2>
+        </div>
+        <div class="project-item">
+          <h4>Power-Based Schedule Verification</h4>
+          <p class="tech-tags"><span class="tech-tag">Python</span> <span class="tech-tag">RTOS</span> <span class="tech-tag">Side-Channel Analysis</span></p>
+          <p>Real-Time Operating System Schedule Verification for Black-box systems </p>
+        </div>
+        <div class="project-item">
+          <h4>Early Wildfire Detection System</h4>
+          <p class="tech-tags"><span class="tech-tag">Python</span> <span class="tech-tag">Bash</span> <span class="tech-tag">Computer Vision</span></p>
+          <p>Autonomous drone system for real-time wildfire detection using fire detection algorithms and live aerial imaging. Achieved Certificate of Distinction.</p>
+        </div>
+        <div class="project-item">
+          <h4>Geographical Information System</h4>
+          <p class="tech-tags"><span class="tech-tag">C++</span> <span class="tech-tag">OpenStreetMaps</span> <span class="tech-tag">LibCurl</span></p>
+          <p>Full GIS application with Dijkstra, A*, and greedy TSP solver handling up to 200 nodes in under 45 seconds. Live traffic data via CP24 APIs.</p>
+        </div>
+        <div class="text-end mt-3">
+          <a href="projects.html" class="view-all">View all projects <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
